@@ -39,5 +39,6 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BRANCH: gh-pages
-          FOLDER: deploy_dist/angular-demo
+          BRANCH: main
+          FOLDER: deploy_dist/test-angular-app
+          TARGET_FOLDER: dist
